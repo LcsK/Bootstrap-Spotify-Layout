@@ -6,6 +6,13 @@
 
 /* ========================= layout ======================== */
 
+body {
+	background: url('../img/cover.png'),
+				url('../img/noise.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+}
+
 /* -- Barra de navegação -- */
 .img-logo {
 	height: 40px;
@@ -40,5 +47,7 @@ nav.navbar-transparente {
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #9bf0e1;
 }
+/* -- Capa --*/
+
 
 /* ========================= Tipografia ======================== */
