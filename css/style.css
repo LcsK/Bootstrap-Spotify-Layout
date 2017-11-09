@@ -15,6 +15,7 @@ body {
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
 }
 
 /* -- Barra de navegação -- */
@@ -95,12 +96,26 @@ nav.navbar-transparente {
 }
 
 /* -- Conteúdos --*/
+	/* -- Serviços --*/
 #servicos {
 	background: white;
 	padding: 20px 0;
 }
 .albuns {
 	padding: 10px 0;
+}
+	/* -- Recursos -- */
+#recursos {
+	padding: 20px 0;
+	color: white;
+}
+
+.rotacionar-iphones {
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	padding-left: 80px;
 }
 
 /* ========================= Tipografia ======================== */
@@ -126,4 +141,8 @@ h3 {
 
 #servicos h2, #servicos h3 {
 	color: #7c25f8;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
 }
